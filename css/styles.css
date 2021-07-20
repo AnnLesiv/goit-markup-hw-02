@@ -5,6 +5,7 @@
   --hero-title-color: #fff;
   --hero-fon-color: #2f303a;
 }
+/* Header */
 header {
   background-color: var(--hero-title-color);
 }
@@ -15,7 +16,13 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03;
 }
-/* Header */
+h1 {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+
 /* Logo */
 .logo {
   color: #000;
@@ -128,6 +135,9 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+.button-primary:hover {
+  color: #188ce8;
 }
 .section .button-all {
   color: var(--hero-title-color);
