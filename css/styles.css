@@ -138,7 +138,7 @@ a {
 }
 .button-primary:hover,
 .button-primary:focus {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 .section .button-all {
   color: var(--hero-title-color);
